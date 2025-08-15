@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   title: "Shreyash Malusare Portfolio",
   description: "A modern portfolio showcasing skills and projects",
   generator: "v0.dev",
+  icons: {
+    icon: "/favicon.ico", // Path to your favicon (must be in public folder)
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png", // Optional: for iOS devices
+    other: {
+      rel: "icon",
+      url: "/favicon-32x32.png", // Optional: different sizes
+    },
+  }
 }
 
 export default function RootLayout({
