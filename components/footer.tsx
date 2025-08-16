@@ -53,7 +53,8 @@ export default function Footer() {
               <Twitter className="w-5 h-5" />
               <span className="sr-only">Twitter</span>
             </a> */}
-            <a href="malusareshreyash01@gmail.com" className="transition-colors hover:text-primary">
+            <a href="https://mail.google.com/mail/u/0/#search/malusareshreyash01%40gmail.com?compose=new"
+              className="transition-colors hover:text-primary">
               <Mail className="w-5 h-5" />
               <span className="sr-only">Email</span>
             </a>

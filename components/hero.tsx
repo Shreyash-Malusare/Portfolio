@@ -139,7 +139,7 @@ export default function Hero() {
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
-              href="https://mail.com/yourusername"
+              href="https://mail.google.com/mail/u/0/#search/malusareshreyash01%40gmail.com?compose=new"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform hover:text-accent hover:scale-110"
