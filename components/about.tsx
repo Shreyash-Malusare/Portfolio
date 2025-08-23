@@ -63,7 +63,7 @@ export default function About() {
               exploring new technologies to stay at the forefront of web development.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 pt-4">
               <div>
                 <h4 className="font-medium">Name:</h4>
                 <p className="text-muted-foreground">Shreyash Malusare</p>
