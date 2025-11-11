@@ -12,6 +12,7 @@ import porfolio_img from "../public/porfolio.png"
 import weather_img from "../public/weather.png"
 import taskify_img from "../public/taskify.png"
 import jarvis_img from "../public/jarvis.jpeg"
+import kiran_img from "../public/kga.png"
 
 export default function Projects() {
   const [ref, inView] = useInView({
@@ -29,6 +30,16 @@ export default function Projects() {
       category: "Full Stack",
       github: "https://github.com/Shreyash-Malusare/M.A.C.S",
       demo: "https://m-a-c-s.onrender.com",
+    },
+    {
+      title: "Kiran Gorodia Adventure",
+      description:
+        "A cinematic adventure landing built with smooth scrolling, parallax sections, and subtle motion reveals for a premium brand feel.",
+      image: kiran_img,
+      tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "GSAP"],
+      category: "Frontend",
+      github: "https://kiran-copy.vercel.app/", // add when repo is public
+      demo: "https://kiran-copy.vercel.app/",
     },
     {
       title: "J.A.R.V.I.S.",
