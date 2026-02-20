@@ -7,6 +7,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Github } from "lucide-react"
+import glevera_img from "../public/glevera.png"
 import macs_img from "../public/macs.png"
 import porfolio_img from "../public/porfolio.png"
 import weather_img from "../public/weather.png"
@@ -21,6 +22,16 @@ export default function Projects() {
   })
 
   const projects = [
+    {
+      title: "GLEVERA",
+      description:
+        "A full-featured Jwelery e-commerce platform with product management, cart functionality, and payment processing.",
+      image: glevera_img,
+      tags: ["Next.js", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+      category: "Full Stack",
+      github: "https://github.com/teamCoreCoders/glevaria",
+      demo: "https://gleveracopy.vercel.app/",
+    },
     {
       title: "M.A.C.S.",
       description:
